@@ -1,16 +1,13 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
 package com.mycompany.pt1.variables;
 
 /**
  *
  * @author Yamila Cazalla Recio
  */
-public class Variables {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+public class VideojocAiA {
+    
 }
