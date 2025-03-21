@@ -7,10 +7,11 @@ package com.mycompany.pt1.variables;
 import java.util.Scanner;
 
 /**
- *
+ * Classe AreaFormes.
+ * Calcula l'àrea de les formes geomètriques.
  * @author Yamila Cazalla Recio
  */
-public class AreaFormas {
+public class AreaFormes {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //Crear Scanner
