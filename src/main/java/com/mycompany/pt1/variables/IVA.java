@@ -16,7 +16,7 @@ public class IVA {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //Crear Scanner
         double preu; //Variable de l'import decimal
-        int iva; //Variable del IVA nombre enter
+        double iva; //Variable del IVA nombre decimal
         System.out.println("--Calculadora d'IVA--");//Títol del programa
         System.out.print("Introdueix l'import: "); //Pregunta sobre l'import
         preu= sc.nextDouble(); //Per a introduïr el número
@@ -26,7 +26,8 @@ public class IVA {
         double IVA = preu * iva / 100; //Càlcul del IVA
         double resultat = preu + IVA; //Sumar el IVA al preu
         System.out.println("Import del IVA = " + IVA); //Imprimir l'import del IVA
-        System.out.println("Resultat del càlcul de l'import + IVA = " + resultat); //Imprimir el càlcul
+        //Imprimir el càlcul
+        System.out.println("Resultat del càlcul de l'import + IVA = " + resultat);
     }
     
 }
